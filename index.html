@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Warisan Modern - Koleksi Fashion</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&amp;family=Poppins:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#A97C50",
+              "background-light": "#FDFBF8",
+              "background-dark": "#1A1A1A",
+              "text-light": "#3D3D3D",
+              "text-dark": "#E5E5E5",
+              "card-light": "#FFFFFF",
+              "card-dark": "#2C2C2C",
+              "border-light": "#EAEAEA",
+              "border-dark": "#3D3D3D"
+            },
+            fontFamily: {
+              display: ["Cormorant Garamond", "serif"],
+              body: ["Poppins", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem",
+              lg: "1rem",
+              full: "9999px"
+            },
+          },
+        },
+      };
+    </script>
+<style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark font-body antialiased">
+<header class="fixed top-0 left-0 right-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-border-light dark:border-border-dark transition-colors duration-300">
+<div class="container mx-auto px-6 py-4 flex justify-between items-center">
+<a class="font-display text-2xl font-bold text-text-light dark:text-text-dark" href="#">WARISAN</a>
+<nav class="hidden md:flex items-center space-x-8">
+<a class="hover:text-primary transition-colors" href="#pengenalan">Pengenalan</a>
+<a class="hover:text-primary transition-colors" href="#fitur">Fitur</a>
+<a class="hover:text-primary transition-colors" href="#galeri">Galeri</a>
+<a class="hover:text-primary transition-colors" href="#kontak">Kontak</a>
+</nav>
+<button class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700" id="theme-toggle">
+<span class="material-icons dark:hidden">dark_mode</span>
+<span class="material-icons hidden dark:inline">light_mode</span>
+</button>
+</div>
+</header>
+<main>
+<section class="relative h-screen flex items-end">
+<div class="absolute inset-0">
+<img alt="Wanita mengenakan busana perpaduan modern dan warisan budaya" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbEENeZkGiHMJoPxGnxS2gRKVnKs3M_zGdl9_HYWCgmhMhS22FNzY-ikmC7aRGqHPg4QnwbkmC14M2_i83tOEJSpDb2PQN7TWv_16HDx3pGwtZ5u4bktpiwfvDYFcZFVMJXXdvmYpkSfJSOBfd-qOMzS3_KwiW9QdI2iYtDO7jcdYbeF3XAw-GGxn4lHIi6rpG8G7GErsWziycQ9skU4c3bBJbiZKYQXaj415HnUSFT-ECMpjnNNDUxWPDpDhNzuY7mbuK4bL_OQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background-light/50 dark:from-background-dark/70 to-transparent"></div>
+</div>
+<div class="relative container mx-auto px-6 pb-20 text-center md:text-right">
+<h1 class="font-display text-5xl md:text-7xl font-bold text-white drop-shadow-lg">Modernitas dalam Warisan</h1>
+<p class="mt-4 text-lg text-white font-light drop-shadow-md max-w-lg ml-auto">Merayakan keanggunan tradisi dalam balutan desain kontemporer.</p>
+</div>
+</section>
+<section class="py-20 md:py-32 bg-background-light dark:bg-background-dark" id="pengenalan">
+<div class="container mx-auto px-6 text-center">
+<h2 class="font-display text-4xl md:text-5xl font-bold mb-6 text-text-light dark:text-text-dark">Kisah di Balik Koleksi</h2>
+<p class="max-w-3xl mx-auto text-lg leading-relaxed text-gray-600 dark:text-gray-400">
+                    Setiap helai kain menceritakan sebuah kisah—perpaduan harmonis antara keahlian para pengrajin warisan dengan estetika modern. Koleksi kami dirancang untuk wanita masa kini yang menghargai akar budaya namun tetap melangkah maju dengan percaya diri. Kami percaya bahwa busana bukan hanya pakaian, melainkan sebuah pernyataan identitas.
+                </p>
+</div>
+</section>
+<section class="py-20 md:py-24 bg-gray-50 dark:bg-gray-900/50" id="fitur">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="font-display text-4xl md:text-5xl font-bold text-text-light dark:text-text-dark">Keunggulan Koleksi Kami</h2>
+<p class="mt-4 text-lg text-gray-600 dark:text-gray-400">Diciptakan dengan presisi dan penuh makna.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-10">
+<div class="text-center p-8 bg-card-light dark:bg-card-dark rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+<span class="material-icons text-5xl text-primary mb-4">spa</span>
+<h3 class="text-xl font-body font-semibold mb-2">Bahan Berkualitas Tinggi</h3>
+<p class="text-gray-600 dark:text-gray-400">Kami memilih material terbaik yang nyaman di kulit dan ramah lingkungan, memastikan keindahan yang bertahan lama.</p>
+</div>
+<div class="text-center p-8 bg-card-light dark:bg-card-dark rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+<span class="material-icons text-5xl text-primary mb-4">palette</span>
+<h3 class="text-xl font-body font-semibold mb-2">Desain Eksklusif</h3>
+<p class="text-gray-600 dark:text-gray-400">Setiap desain adalah karya seni orisinal yang menggabungkan motif tradisional dengan siluet modern yang elegan.</p>
+</div>
+<div class="text-center p-8 bg-card-light dark:bg-card-dark rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+<span class="material-icons text-5xl text-primary mb-4">handyman</span>
+<h3 class="text-xl font-body font-semibold mb-2">Kerajinan Tangan</h3>
+<p class="text-gray-600 dark:text-gray-400">Detail bordir dan aplikasi dikerjakan oleh pengrajin terampil, menghidupkan kembali seni warisan budaya.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 md:py-32 bg-background-light dark:bg-background-dark" id="testimonial">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="font-display text-4xl md:text-5xl font-bold text-text-light dark:text-text-dark">Apa Kata Mereka</h2>
+<p class="mt-4 text-lg text-gray-600 dark:text-gray-400">Pengalaman pelanggan yang menginspirasi.</p>
+</div>
+<div class="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+<div class="bg-card-light dark:bg-card-dark p-8 rounded-lg border border-border-light dark:border-border-dark">
+<p class="italic text-gray-700 dark:text-gray-300">"Sangat elegan dan nyaman! Saya merasa bangga mengenakan busana yang sarat akan makna budaya, namun tetap terlihat modern. Kualitasnya luar biasa."</p>
+<div class="mt-6 flex items-center">
+<img alt="Foto profil pelanggan wanita" class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY0hpBx34eFzKmN8dshepiR21KBMaw2lOakPzOtsrd0zvV89NUfMXY5qiSBXXe4lfKgZ_oRo1OHFRLmmRMjltoYEvQay4atJ76kUJFAd3iF0wYbPDPj4ZVJ1vEXuUn6JQwRcG-IzOqQS9AX-QKQAlu6sXfG3wxIX0yxcQ4m1wFnQfRHcAVXzZkbxeB8eSG5pm9W5CoWyb1xM8WpPxpOnVnDtLxtx8n185KiwgrriPlEiNpib_ZsmGmjXzFMYdMUO_PZcwpRmM4DQ"/>
+<div class="ml-4">
+<p class="font-semibold">Andini Putri</p>
+<p class="text-sm text-gray-500 dark:text-gray-400">Pecinta Mode</p>
+</div>
+</div>
+</div>
+<div class="bg-card-light dark:bg-card-dark p-8 rounded-lg border border-border-light dark:border-border-dark">
+<p class="italic text-gray-700 dark:text-gray-300">"Koleksi ini benar-benar unik. Saya mendapat banyak pujian saat memakainya di sebuah acara. Desainnya tak lekang oleh waktu."</p>
+<div class="mt-6 flex items-center">
+<img alt="Foto profil pelanggan wanita" class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9tn0OWTyesG2_6yvwgwTChG6JhUVQjred2wC1Pit_lGy3ch4CdwHBGxWsPHwMVSfA4RKh2Nu9WZ-G1fhPjTq-DS4boUhA6Y4gf7kz9RmanpHwCefnafEnsxOnMje6-YaE9qKT0pxPDCQLpm9Dy9QFSmH5gjzr59oRFWZDRrSzCIGcB2T6F_C_H0N0G7EUFa168jc7ePgVazwFhXCQOTSHYamWn-OMljkzlF6A1H8xpkDrqLWoHACF_mbrLjUaxI1qLoImmQcohg"/>
+<div class="ml-4">
+<p class="font-semibold">Citra Lestari</p>
+<p class="text-sm text-gray-500 dark:text-gray-400">Desainer Interior</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 md:py-24 bg-gray-50 dark:bg-gray-900/50" id="galeri">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="font-display text-4xl md:text-5xl font-bold text-text-light dark:text-text-dark">Jelajahi Galeri Kami</h2>
+<p class="mt-4 text-lg text-gray-600 dark:text-gray-400">Temukan pesona dalam setiap detail.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="group relative overflow-hidden rounded-lg">
+<img alt="Close up atasan wanita dengan bordir emas" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnIAxmvwZGdx_Y-RNncpV8TN5O2JrJf1rAlStZhZezYYgKmmgVUKIp25lP6fbvrPWGDTfbxnoPSup0DeRqnuqlHAEM41goloqd8VJPkPT2Eyimxi-mKpP6hNZb3EJ_ZAAV7IJb5hoJ2bHigtGfifRiQkdDKQhIwFLB5ZEUJihxIGika27dVBka2aDJ_RorGwNK35xaGnk1StHLy9fFAOxwu6W3sfJvIYG6MGdmaKi9hTVdbzhyyagRJFltSBDbXExIo7B1xNW6UA"/>
+<div class="absolute inset-0 bg-black/20"></div>
+</div>
+<div class="group relative overflow-hidden rounded-lg col-span-2">
+<img alt="Busana wanita dengan rok biru bermotif bunga" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCD8TvsLqVMo1QUSznUqTAps0MtHh5ihRpnlTU_V0hko8FYtr-lTKJ2Ag9EoFVl7yo9I-WPb5dOxkFoVc_pbn9NpKsksC-nn0dFKBmuPc4JxuSi4zqm3UYEms-SbwJCX11LGJar_2605eUPqChEjT1E3d8tr4Jjy2aDxgmR1BtMp10qqfdRaphojNyGtO5m1silcboiZss0BFjccEOBpVVYGyxwfidb8hd0VD88_80wAug8nI4zhICc5X1Fqtzaal2Wv7PA7BhZSw"/>
+<div class="absolute inset-0 bg-black/20"></div>
+</div>
+<div class="group relative overflow-hidden rounded-lg">
+<img alt="Wanita dengan bunga di rambutnya" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0_JF2MiQH-vhiRPrz-omEbFhr9PPWL0F8ceCTybS0h6cEtpNuXR4QZDqzkbSxUr03iT4dIU11FYuKHP8kUMBlNW6AkLsxqKHyeMoXQlstoR4RWLbLIv3ViddQxaQGyX5K48fhDMpeEvpn4vfOH9H-ozZYcrLQuaYpxNf4RkOXD8YR_QGJ2wB7vtQuFm40jnBo_uZSOYoPOKjRvl5ZN0ECrK0JbLJbxO3Km2PgQjqsqVjO0q4ktaLKCkYSxazJbSPgqj2fcOowsg"/>
+<div class="absolute inset-0 bg-black/20"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 md:py-32 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('image-4.jpeg')">
+<div class="container mx-auto px-6 text-center text-white">
+<h2 class="font-display text-4xl md:text-5xl font-bold">Siap Menjadi Bagian dari Cerita Kami?</h2>
+<p class="mt-4 text-lg max-w-2xl mx-auto">Jadilah yang pertama mengetahui koleksi terbaru, penawaran eksklusif, dan inspirasi gaya dari kami.</p>
+<a class="mt-8 inline-block bg-primary text-white py-3 px-8 rounded-full font-semibold text-lg hover:bg-opacity-90 transition-colors" href="#">Lihat Koleksi Lengkap</a>
+</div>
+</section>
+<section class="py-20 md:py-24 bg-background-light dark:bg-background-dark" id="kontak">
+<div class="container mx-auto px-6">
+<div class="grid md:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="font-display text-4xl md:text-5xl font-bold mb-4">Hubungi Kami</h2>
+<p class="text-lg text-gray-600 dark:text-gray-400 mb-8">Kami senang mendengar dari Anda. Kirimkan pertanyaan atau masukan Anda melalui formulir di samping.</p>
+<div class="space-y-4">
+<p class="flex items-center"><span class="material-icons text-primary mr-3">location_on</span> Jalan Seni Budaya No. 123, Jakarta, Indonesia</p>
+<p class="flex items-center"><span class="material-icons text-primary mr-3">email</span> info@warisanmodern.com</p>
+<p class="flex items-center"><span class="material-icons text-primary mr-3">phone</span> +62 21 1234 5678</p>
+</div>
+</div>
+<div class="bg-card-light dark:bg-card-dark p-8 rounded-lg shadow-md">
+<form action="#" class="space-y-6" method="POST">
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="name">Nama</label>
+<input class="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 bg-background-light dark:bg-gray-700 shadow-sm focus:border-primary focus:ring-primary" id="name" name="name" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="email">Email</label>
+<input class="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 bg-background-light dark:bg-gray-700 shadow-sm focus:border-primary focus:ring-primary" id="email" name="email" type="email"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="message">Pesan</label>
+<textarea class="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 bg-background-light dark:bg-gray-700 shadow-sm focus:border-primary focus:ring-primary" id="message" name="message" rows="4"></textarea>
+</div>
+<div>
+<button class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary" type="submit">Kirim Pesan</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-gray-100 dark:bg-gray-900">
+<div class="container mx-auto px-6 py-8 text-center text-gray-600 dark:text-gray-400">
+<p>© 2024 Warisan. Seluruh Hak Cipta.</p>
+<div class="flex justify-center space-x-4 mt-4">
+<a class="hover:text-primary" href="#">Facebook</a>
+<a class="hover:text-primary" href="#">Instagram</a>
+<a class="hover:text-primary" href="#">Twitter</a>
+</div>
+</div>
+</footer>
+<script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const htmlEl = document.documentElement;
+        themeToggle.addEventListener('click', () => {
+            if (htmlEl.classList.contains('dark')) {
+                htmlEl.classList.remove('dark');
+                localStorage.setItem('theme', 'light');
+            } else {
+                htmlEl.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+        // On page load, check for saved theme
+        if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            htmlEl.classList.add('dark');
+        } else {
+            htmlEl.classList.remove('dark');
+        }
+    </script>
+
+</body></html>
